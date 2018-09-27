@@ -1,0 +1,57 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/09/2017 00:57
+    */
+
+    @font-face {
+  font-family: "NavFlaticon";
+  src: url("fonts/NavFlaticon.eot");
+  src: url("fonts/NavFlaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/NavFlaticon.woff") format("woff"),
+       url("fonts/NavFlaticon.ttf") format("truetype"),
+       url("fonts/NavFlaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "NavFlaticon";
+    src: url("fonts/NavFlaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .navfi:before{
+        display: inline-block;
+  font-family: "NavFlaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+  .flaticon-calendar:before { content: "\f100"; }
+.flaticon-dashboard:before { content: "\f101"; }
+.flaticon-network:before { content: "\f102"; }
+.flaticon-hook-1:before { content: "\f103"; }
+.flaticon-hook:before { content: "\f104"; }
+.flaticon-music:before { content: "\f105"; }
+.flaticon-user-outline:before { content: "\f106"; }
+.flaticon-graphic:before { content: "\f107"; }
+.flaticon-speedometer-tool:before { content: "\f108"; }
+    
+    $font-Flaticon-calendar: "\f100";
+    $font-Flaticon-dashboard: "\f101";
+    $font-Flaticon-network: "\f102";
+    $font-Flaticon-hook-1: "\f103";
+    $font-Flaticon-hook: "\f104";
+    $font-Flaticon-music: "\f105";
+    $font-Flaticon-user-outline: "\f106";
+    $font-Flaticon-graphic: "\f107";
+    $font-Flaticon-speedometer-tool: "\f108";

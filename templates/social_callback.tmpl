@@ -1,0 +1,10 @@
+<div id="activated">{{.}}</div>
+<script>
+  var activated = document.getElementById("activated");
+  if (activated) {
+      data = activated.innerHTML;
+      console.log(data);
+      localStorage.setItem("social_data", data);
+  }
+  window.close();
+</script>

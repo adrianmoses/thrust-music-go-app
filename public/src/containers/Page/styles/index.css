@@ -1,0 +1,342 @@
+@import url(//fonts.googleapis.com/css?family=Dosis:400,100,300,500,700,900);
+@import url(//fonts.googleapis.com/css?family=Karla:400,100,300,500,700,900);
+@import url(//fonts.googleapis.com/css?family=Quicksand:400,100,300,500,700,900);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+    background: #FDFFFC;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.preview-section {
+    float: right;
+    font-size: 12px;
+}
+
+.content {
+    background: #EEF2F5;
+    padding: 25px;
+}
+
+.sidebar {
+    min-height: 100vh;
+    padding: 25px;
+    color: #FDFFFC;
+}
+
+
+.nav {
+    background: #404040;
+}
+
+.nav-item {
+    color: #FDFFFC !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #FDFFFC;
+}
+.ant-tabs-nav {
+    color: #FDFFFC;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    margin-right: 0px;
+    // padding: 8px 10px;
+    height: auto;
+}
+
+.ant-tabs-ink-bar {
+    background: #FDFFFC;
+    width: 80px;
+}
+
+.template-list-section {
+    max-height: 70vh;
+    overflow: scroll;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.template-item {
+    cursor: move;
+    border: 1px dashed #FDFFFC;
+    border-radius: 5px;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 25px;
+    padding: 15px;
+    margin-left: 0 !important;
+    width: 95%;
+}
+
+.template-image {
+    width: 100px;
+    height: 80px;
+    color: #333333;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background: #FDFFFC;
+    box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.2);
+}
+
+.template-image > i {
+    line-height: 80px !important;
+}
+
+.page-footer {
+    padding: 15px;
+    text-align: center;
+    color: #FDFFFC;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.sidebar-input {
+    margin-bottom: 15px;
+    background: #404E5C;
+    border: none;
+}
+
+.sidebar-input::placeholder {
+    color: #FDFFFC;
+}
+
+.no-template-section {
+    height: 800px;
+    border: 1px dashed #333333;
+    border-radius: 5px;
+    padding: 35px;
+    text-align: center;
+    line-height: 800px;
+    font-size: 24px;
+}
+
+.template-section {
+    height: 800px;
+    border-radius: 5px;
+}
+
+.save-section {
+    float: right;
+    margin-right: 15px;
+}
+
+.success-button {
+    background: #6EEB83;
+    color: #FDFFFC;
+    border: none;
+}
+
+.sidebar-hr {
+    background: #FDFFFC;
+    border: none;
+    height: 1px;
+    border-radius: 5px;
+}
+
+.landing-page {
+    font-family: "Quicksand", sans-serif;
+    min-height: 100vh;
+    max-height: 100%;
+    background: #2D3A3A;
+    color: #FDFFFC;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.landing-page > nav {
+    font-family: "Quicksand", sans-serif;
+    height: 100px;
+    width: 100%;
+    padding-top: 35px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+.landing-page > nav > ul {
+    margin: 0;
+    float: right;
+}
+
+.landing-page > nav > ul > li {
+    float: left;
+    margin-left: 15px;
+}
+
+.landing-page-headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #FDFFFC;
+    font-size: 36px;
+    font-weight: 700;
+}
+.landing-page-subheadline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #FDFFFC;
+    font-size: 24px;
+}
+
+.landing-page-features {
+    display: flex;
+    margin-top: 45px;
+    font-size: 16px;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.landing-page-features > div {
+    flex-basis: 30%;
+    -webkit-flex-basis: 30%;
+}
+
+.lp-button-and-screenshot {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.landing-page-getting-started {
+    margin-left: 50px;
+}
+
+.get-started-button {
+    font-family: "Quicksand", sans-serif;
+    cursor: pointer;
+    background: #248232;
+    height: 50px;
+    width: 240px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.3);
+}
+
+.landing-page-screenshot, .page-screenshot {
+    width: 500px;
+    height: 250px;
+}
+
+.upload-section {
+    min-height: 600px;
+}
+
+.upload-image-section {
+    margin-bottom: 20px;
+    float: left;
+    min-height: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.image-file {
+    display: block;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-file-label {
+    background: #EEF2F5;
+    height: 35px;
+    width: 150px;
+    color: #333333;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.audio-file {
+    display: block;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.audio-file-label {
+    background: #EEF2F5;
+    height: 35px;
+    width: 150px;
+    color: #333333;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.upload-audio-section {
+    margin-bottom: 20px;
+    float: left;
+    min-height: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.upload-video-section {
+    margin-bottom: 20px;
+    float: left;
+    min-height: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.video-file {
+    display: block;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-file-label {
+    background: #EEF2F5;
+    height: 35px;
+    width: 150px;
+    color: #333333;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.pages-img-upload-thumbnail {
+    height: 80px;
+    width: 100px;
+    border: 1px solid #FDFFFC;
+    border-radius: 5px;
+}
