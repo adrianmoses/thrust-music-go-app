@@ -4,8 +4,8 @@ import (
 	"fmt"
 	// "encoding/json"
 	"github.com/go-martini/martini"
-	// dbc "github.com/ammoses89/thrust-outreach/db"
-	// models "github.com/ammoses89/thrust-outreach/models"
+	// dbc "github.com/ammoses89/thrust/db"
+	// models "github.com/ammoses89/thrust/models"
 )
 
 type EventsController struct{}

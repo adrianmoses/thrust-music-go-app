@@ -1,8 +1,8 @@
 package social
 
 import (
-    config "github.com/ammoses89/thrust-outreach/config"
-    dbc "github.com/ammoses89/thrust-outreach/db"
+    config "github.com/ammoses89/thrust/config"
+    dbc "github.com/ammoses89/thrust/db"
     "encoding/json"
     "errors"
     "io/ioutil"

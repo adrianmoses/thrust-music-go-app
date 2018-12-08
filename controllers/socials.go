@@ -7,13 +7,13 @@ import (
     "errors"
     "net/http"
     "encoding/json"
-    "github.com/ammoses89/thrust-outreach/lib"
+    "github.com/ammoses89/thrust/lib"
     "github.com/martini-contrib/render"
     "github.com/go-martini/martini"
     "github.com/jinzhu/gorm"
-    dbc "github.com/ammoses89/thrust-outreach/db"
-    models "github.com/ammoses89/thrust-outreach/models"
-    socialProvider "github.com/ammoses89/thrust-outreach/social"
+    dbc "github.com/ammoses89/thrust/db"
+    models "github.com/ammoses89/thrust/models"
+    socialProvider "github.com/ammoses89/thrust/social"
 )
 
 type SocialsController struct{}

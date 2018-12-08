@@ -7,10 +7,10 @@ import (
     "encoding/json"
     "net/http"
     "io/ioutil"
-    dbc "github.com/ammoses89/thrust-outreach/db"
-    "github.com/ammoses89/thrust-outreach/files"
-    "github.com/ammoses89/thrust-outreach/models"
-    "github.com/ammoses89/thrust-outreach/social"
+    dbc "github.com/ammoses89/thrust/db"
+    "github.com/ammoses89/thrust/files"
+    "github.com/ammoses89/thrust/models"
+    "github.com/ammoses89/thrust/social"
 )
 
 func CreateSocialSendTask(rw http.ResponseWriter, req *http.Request, 

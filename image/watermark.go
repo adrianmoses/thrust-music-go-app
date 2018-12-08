@@ -6,7 +6,7 @@ import (
     "image"
     "image/draw"
     "image/png"
-    helpers "github.com/ammoses89/thrust-outreach/helpers"
+    helpers "github.com/ammoses89/thrust/helpers"
 )
 
 func Watermark(sourceImg string, watermarkImg string) (string, error) {

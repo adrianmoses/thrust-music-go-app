@@ -5,7 +5,7 @@ import (
     "log"
     "database/sql"
     "github.com/jinzhu/gorm"
-    config "github.com/ammoses89/thrust-outreach/config"
+    config "github.com/ammoses89/thrust/config"
     _ "github.com/lib/pq"
 )
 

@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-    config "github.com/ammoses89/thrust-outreach/config"
-	dbc "github.com/ammoses89/thrust-outreach/db"
-    helpers "github.com/ammoses89/thrust-outreach/helpers"
+    config "github.com/ammoses89/thrust/config"
+	dbc "github.com/ammoses89/thrust/db"
+    helpers "github.com/ammoses89/thrust/helpers"
 	"io/ioutil"
 	"log"
 	"net/http"

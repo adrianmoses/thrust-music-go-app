@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	dbc "github.com/ammoses89/thrust-outreach/db"
-	models "github.com/ammoses89/thrust-outreach/models"
+	dbc "github.com/ammoses89/thrust/db"
+	models "github.com/ammoses89/thrust/models"
 	"github.com/go-martini/martini"
 )
 

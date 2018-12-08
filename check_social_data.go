@@ -7,10 +7,10 @@ import (
     "io/ioutil"
     "time"
     "net/http"
-    "github.com/ammoses89/thrust-outreach/models"
-    "github.com/ammoses89/thrust-outreach/social"
-    dbc "github.com/ammoses89/thrust-outreach/db"
-    config "github.com/ammoses89/thrust-outreach/config"
+    "github.com/ammoses89/thrust/models"
+    "github.com/ammoses89/thrust/social"
+    dbc "github.com/ammoses89/thrust/db"
+    config "github.com/ammoses89/thrust/config"
 )
 
 

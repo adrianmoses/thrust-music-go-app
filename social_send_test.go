@@ -12,8 +12,8 @@ import (
     "testing"
     "encoding/json"
     "github.com/stretchr/testify/assert"
-    dbc "github.com/ammoses89/thrust-outreach/db"
-    config "github.com/ammoses89/thrust-outreach/config"
+    dbc "github.com/ammoses89/thrust/db"
+    config "github.com/ammoses89/thrust/config"
 )
 
 func TestSocialTwitterSend(t *testing.T) {

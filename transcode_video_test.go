@@ -5,8 +5,8 @@ import (
     "testing"
     "encoding/json"
     "github.com/stretchr/testify/assert"
-    config "github.com/ammoses89/thrust-outreach/config"
-    dbc "github.com/ammoses89/thrust-outreach/db"
+    config "github.com/ammoses89/thrust/config"
+    dbc "github.com/ammoses89/thrust/db"
 )
 
 func TestTranscodeVideo(t *testing.T) {

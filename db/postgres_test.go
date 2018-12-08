@@ -2,7 +2,7 @@ package db
 
 import (
     "testing"
-    config "github.com/ammoses89/thrust-outreach/config"
+    config "github.com/ammoses89/thrust/config"
     "github.com/stretchr/testify/assert"
 )
 

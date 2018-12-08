@@ -3,9 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	dbc "github.com/ammoses89/thrust-outreach/db"
-	lib "github.com/ammoses89/thrust-outreach/lib"
-	models "github.com/ammoses89/thrust-outreach/models"
+	dbc "github.com/ammoses89/thrust/db"
+	lib "github.com/ammoses89/thrust/lib"
+	models "github.com/ammoses89/thrust/models"
 	"github.com/go-martini/martini"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"

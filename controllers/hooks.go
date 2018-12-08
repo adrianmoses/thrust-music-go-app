@@ -7,9 +7,9 @@ import (
     "strconv"
     "encoding/json"
     "github.com/go-martini/martini"
-    "github.com/ammoses89/thrust-outreach/lib"
-    dbc "github.com/ammoses89/thrust-outreach/db"
-    models "github.com/ammoses89/thrust-outreach/models"
+    "github.com/ammoses89/thrust/lib"
+    dbc "github.com/ammoses89/thrust/db"
+    models "github.com/ammoses89/thrust/models"
 )
 
 type HooksController struct{}

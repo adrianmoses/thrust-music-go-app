@@ -1,10 +1,10 @@
 package main
 
 import (
-	config "github.com/ammoses89/thrust-outreach/config"
-	"github.com/ammoses89/thrust-outreach/controllers"
-	db_ "github.com/ammoses89/thrust-outreach/db"
-	"github.com/ammoses89/thrust-outreach/models"
+	config "github.com/ammoses89/thrust/config"
+	"github.com/ammoses89/thrust/controllers"
+	db_ "github.com/ammoses89/thrust/db"
+	"github.com/ammoses89/thrust/models"
 	"github.com/martini-contrib/render"
 	"github.com/go-martini/martini"
 	"log"

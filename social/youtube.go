@@ -7,8 +7,8 @@ import (
     "net/http"
     "google.golang.org/api/youtube/v3"
     "golang.org/x/oauth2"
-    config "github.com/ammoses89/thrust-outreach/config"
-    dbc "github.com/ammoses89/thrust-outreach/db"
+    config "github.com/ammoses89/thrust/config"
+    dbc "github.com/ammoses89/thrust/db"
 )
 
 type ChannelStatsResponse struct {

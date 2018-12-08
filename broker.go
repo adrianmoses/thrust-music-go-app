@@ -6,8 +6,8 @@ import (
     "sync"
     "encoding/json"
     "github.com/garyburd/redigo/redis"
-    config "github.com/ammoses89/thrust-outreach/config"
-    db "github.com/ammoses89/thrust-outreach/db"
+    config "github.com/ammoses89/thrust/config"
+    db "github.com/ammoses89/thrust/db"
 )
 
 type Broker struct {

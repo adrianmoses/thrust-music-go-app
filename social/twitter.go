@@ -14,8 +14,8 @@ import (
     "net/url"
     "io/ioutil"
     "encoding/json"
-    config "github.com/ammoses89/thrust-outreach/config"
-    dbc "github.com/ammoses89/thrust-outreach/db"
+    config "github.com/ammoses89/thrust/config"
+    dbc "github.com/ammoses89/thrust/db"
     "github.com/dghubble/oauth1"
     twit "github.com/dghubble/oauth1/twitter"
 )

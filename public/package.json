@@ -1,5 +1,5 @@
 {
-  "name": "thrust-outreach",
+  "name": "thrust",
   "version": "1.0.0",
   "description": "Self-hosted music marketing platform",
   "scripts": {
@@ -12,7 +12,7 @@
     "test:watch": "npm test -- --watch"
   },
   "main": "main.go",
-  "repository": "git@github.com:futurecities/thrust-outreach.git",
+  "repository": "git@github.com:futurecities/thrust.git",
   "author": "Adrian Moses <adrian@adrianmoses.com>",
   "license": "MIT",
   "dependencies": {

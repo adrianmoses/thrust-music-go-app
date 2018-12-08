@@ -2,7 +2,7 @@ package main
 
 import (
     "log"
-    config "github.com/ammoses89/thrust-outreach/config"
+    config "github.com/ammoses89/thrust/config"
     "fmt"
 )
 
