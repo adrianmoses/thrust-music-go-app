@@ -65,6 +65,7 @@
     "slate": "^0.25.3",
     "slate-react": "^0.2.1",
     "style-loader": "^0.13.0",
+    "styled-components": "^4.1.2",
     "susy": "^2.2.12",
     "url-loader": "^0.5.7",
     "victory": "^0.22.2",

@@ -109,6 +109,7 @@ export default class RegisterView extends React.Component {
 
     login(e) {
         e.preventDefault();
+        console.log('clicked!');
         this.props.registerUser(this.state.email, this.state.password, this.state.redirectTo);
     }
 
