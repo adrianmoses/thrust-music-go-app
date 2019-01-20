@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-// import 'antd/dist/antd.css'
+import Tabs from './components/Tabs';
 import './styles/index.css';
-
-// import { Layout } from 'antd';
 
 // // components
 // import Sidebar from '../../components/pages/Sidebar';
@@ -57,7 +55,24 @@ class Page extends Component {
   render() {
     return (
       <div className="page-container">
-        <h1>Welcome To Pages!</h1>
+        <div className="header">
+          header
+        </div>
+        <div className="sidebar">
+          <Tabs>
+            <div label="Cover Art">
+            </div>
+            <div label="Music Links">
+            </div>
+            <div label="Background">
+            </div>
+          </Tabs>
+        </div>
+        <div className="main">
+          <div className="promo-box">
+            promote me
+          </div>
+        </div>
       </div>
     );
   }
