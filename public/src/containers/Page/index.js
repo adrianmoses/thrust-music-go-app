@@ -55,22 +55,34 @@ class Page extends Component {
   render() {
     return (
       <div className="page-container">
-        <div className="header">
-          header
-        </div>
         <div className="sidebar">
           <Tabs>
+            <div label="Info">
+              <input name="artist-name" placeholder="Artist Name" />
+              <br/>
+              <input name="release-title" placeholder="Release Title" />
+            </div>
             <div label="Cover Art">
+              <input type="file" id="cover-art"/>
             </div>
             <div label="Music Links">
-            </div>
-            <div label="Background">
+              <input name="add-link" placeholder="Add Music Link" />
             </div>
           </Tabs>
         </div>
         <div className="main">
           <div className="promo-box">
-            promote me
+            <div className="cover-art">
+              cover art
+            </div>
+            <div className="metadata-section">
+              <div className="metadata-info">
+                Move On By Mars Moses
+              </div>
+              <div className="metadata-links">
+                Play On Spotify
+              </div>
+            </div>
           </div>
         </div>
       </div>
