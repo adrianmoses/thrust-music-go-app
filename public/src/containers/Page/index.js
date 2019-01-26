@@ -58,15 +58,31 @@ class Page extends Component {
         <div className="sidebar">
           <Tabs>
             <div label="Info">
-              <input name="artist-name" placeholder="Artist Name" />
+              <input name="artist-name" className="info-input" placeholder="Artist Name" />
               <br/>
-              <input name="release-title" placeholder="Release Title" />
+              <input name="release-title" className="info-input" placeholder="Release Title" />
             </div>
             <div label="Cover Art">
-              <input type="file" id="cover-art"/>
+              <div className="upload-btn-container">
+                <div className="upload-btn-wrapper">
+                  <button className="upload-btn">Add Your Cover Art</button>
+                  <input type="file" id="cover-art"/>
+                </div>
+              </div>
             </div>
             <div label="Music Links">
-              <input name="add-link" placeholder="Add Music Link" />
+              <label for="store-select" className="store-select-label">Choose Store:</label>
+              <select className="store-select" id="store-select">
+                <option value="spotify">Spotify</option>
+                <option value="apple-music">Apple Music</option>
+                <option value="itunes">iTunes</option>
+                <option value="deezer">Deezer</option>
+                <option value="tidal">Tidal</option>
+                <option value="soundcloud">Soundcloud</option>
+                <option value="bandcamp">Bandcamp</option>
+              </select>
+              <input name="add-link" className="add-music-link" placeholder="Add Music Link" />
+              <button className="add-btn">Add Link</button>
             </div>
           </Tabs>
         </div>
